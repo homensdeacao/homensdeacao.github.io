@@ -1,5 +1,5 @@
 <?
-$page_title = 'Qualidade de Vida';
+$page_title = 'Qualidade de VidaQualidade de Vida';
 $link = 'https://app.monetizze.com.br/r/BUM155457';
 $frame_vimeo = '<iframe src="https://player.vimeo.com/video/246682991" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 $linkBackRedirect = 'http://saudedohomemoficial.com.br';
