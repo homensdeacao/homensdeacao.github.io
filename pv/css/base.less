@@ -1,0 +1,257 @@
+@import url("less/load.less");
+
+body{
+  font-family: @font-family-text;
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  background-repeat: repeat;
+}
+h1, h2, h3, h4, h5{
+  font-family: @font-family-text;
+}
+
+img.img{
+  width: 100%;
+  height: auto;
+}
+.marginTop{
+  margin-top: 50px;
+
+  @media screen and (max-width: 650px){
+    margin-top: 25px;
+  }
+}
+.marginBottom{
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 650px){
+    margin-bottom: 25px;
+  }
+}
+
+.container{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+  @media screen and (max-width: 900px){
+    width: 95%;
+  }
+
+  &.sub-container {
+    width: 640px;
+
+    @media screen and (max-width: 900px){
+      width: 85%;
+    }
+
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+
+  iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+footer{
+
+  font-size: 13px;
+
+  @media screen and (max-width: 650px){
+    font-size: 10px;
+  }
+
+  ul.menuF{
+    li{
+      float: left;
+      text-align: center;
+      width: 33%;
+      border-right: 1px solid #e0c62d;
+
+      &:last-child{
+        border: 0;
+      }
+
+      a{
+        color: #FFF;
+        font-family: @font-family-titles;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .copy{
+    font-family: @font-family-titles;
+    color: #FFF;
+    text-align: center;
+  }
+
+}
+
+article{
+  display: none;
+}
+
+
+.box-facebook{
+  background-color: #FFF;
+}
+
+#comentarios_face {
+  font-family: Arial;
+  background-color: #F6F7F9;
+  font-size: 14px;
+  padding: 20px;
+
+  .titulo_comentario {
+    font-weight: bold;
+    border-bottom: 1px solid #E9EBEE;
+    display: block;
+    padding-bottom: 6px;
+  }
+
+  .perfil {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+
+  .perfil p {
+    margin: 0;
+    margin-left: 60px;
+    margin-bottom: 0px;
+  }
+
+  .perfil img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .perfil .nome {
+    color: #365899;
+    font-weight: bold;
+  }
+
+  .infos span {
+    color: #4267B2;
+    text-decoration: none;
+  }
+
+  .infos {
+    font-size: 11px;
+    color: #90949c;
+  }
+
+  .nome img {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .perfil2 {
+    padding-left: 9px;
+    border-left: 1px solid #E9EBEE;
+    margin-left: 50px;
+    padding-bottom: 0;
+  }
+
+  #cronos {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background-image: url("http://www.maesaudavel.com/wp-content/uploads/2016/10/b.png");
+  }
+
+  a.btn-time:link,
+  a.btn-time:visited {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .relogio {
+    font-size: 24px;
+    color: #FFF;
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  .relogio span {
+    font-weight: bold;
+    font-family: Montserrat, Arial, Helvetica;
+    color: #f2e122;
+    display: inline-block;
+    font-size: 22px;
+  }
+
+  .relogio .cr {
+    color: #FFF;
+    display: inline-block;
+  }
+
+  #comb {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img.emoji{
+    width: 14px;
+    height: 14px;
+  }
+
+}
+
+
+
+
+#timer_minutos,
+#timer_segundos{
+
+  font-family: @font-family-titles;
+  color: #1e1e1a;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+
+  left: 50%;
+
+  margin-top: 170px;
+
+}
+
+#timer_minutos{
+  margin-left: -103px;
+}
+
+#timer_segundos{
+  margin-left: 23px;
+}
