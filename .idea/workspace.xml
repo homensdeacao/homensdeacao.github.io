@@ -24,22 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vars.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vars.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25705793">
-              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-              <folding />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="60" />
+              <folding>
+                <element signature="e#21156#21452#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +184,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vars.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
+        <state vertical-scroll-proportion="0.046511628">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
@@ -200,9 +192,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25705793">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#21156#21452#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
